@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+/* Add these styles to your App.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-left h3 {
+  margin: 0;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-button.login {
+  background-color: green;
+}
+
+.navbar-button.logout {
+  background-color: red;
+}
